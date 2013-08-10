@@ -1,0 +1,97 @@
+/* @iPhone && Anything < 480px
+-------------------------------------------------------------- */
+@media screen and (max-width: 420px) { 
+
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+
+
+
+/* iPhone 4 and high pixel ratio devices ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+@media screen and (min-width: 680px) and (max-width: 780px) {
+
+  }
+
+/* @iPad:  641px - 960px, Fluid Grid  
+-------------------------------------------------------------- */
+
+@media screen and (min-width: 680px) and (max-width: 959px) {
+
+}
+@media screen and (min-width: 800px) and (max-width: 959px) {
+
+}
+}
+
+@media screen and (min-width: 680px) and (max-width: 789px) {
+
+
+}
+
+/* @OneCol 680px, Fluid Column
+-------------------------------------------------------------- */
+@media screen and (min-width: 421px) and (max-width: 680px) {
+
+}
+@media screen and (min-width: 1080px) {
+	
+
+	
+/*	
+.container-12 {max-width: 100%!important;}
+.front .wrapper .sidebar {min-height: 722px;}
+.flexslider .slides img {width: 100%;}
+ul#main-menu li a {padding: 5px 17px;}
+
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.container-12 .grid-12, .container-16 .grid-16 {
+    width: 100%;
+}
+.panels-flexible-row {
+    padding: 0;
+}
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16 {
+    display: inline;
+    float: left;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.flexslider  {
+
+}*/
+}
+
