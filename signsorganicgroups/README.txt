@@ -1,11 +1,13 @@
-/* USING THE INSTALLATION PROFILE */
+Using the installation profile
+-----------------------------------------------
 
 1. Create a "profiles" folder in your Drupal installation directory. Move the .make files outside of the installation profile to the root of the installation directory.
 
 2. In Drush run: drush make signsorganicgroups.make
 
 
-/* CONFIGURING THE SITE */
+Configuring the site
+-----------------------------------------------
 
 
 1. Enable your Organic Group content > Edit "Group 1" in the content overview and assign it "Group Status."
