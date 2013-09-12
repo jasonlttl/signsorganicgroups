@@ -1,6 +1,0 @@
-name = overrides
-base theme = seven
-description = This is a subtheme with some css overrides of the Seven theme.
-core = 7.x
-engine = phptemplate
-stylesheets[screen][] = overrides.css
