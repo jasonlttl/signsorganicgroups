@@ -22,6 +22,9 @@ projects[features][subdir] = "contrib"
 projects[entityreference][version] = "1.0"
 projects[entityreference][subdir] = "contrib"
 
+projects[jquery_update][version] = "2.3"
+projects[jquery_update][subdir] = "contrib"
+
 projects[og][version] = "2.3"
 projects[og][subdir] = "contrib"
 

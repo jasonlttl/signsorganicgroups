@@ -8,6 +8,10 @@ function signs_date_all_day_label() {
   return t('');
 }
 
+function signs_preprocess_html(&$variables) {
+   drupal_add_library('system', 'ui');
+}
+
 
    /**
     * Preprocess overlay.

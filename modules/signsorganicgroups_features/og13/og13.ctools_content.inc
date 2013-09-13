@@ -39,10 +39,10 @@ function og13_default_ctools_custom_content() {
     'body' => ' <div class="flexslider">
 <ul class="slides"> 
           <li class="views-row views-row-2 views-row-even">  
-          <img typeof="foaf:Image" src="/profiles/signage/themes/custom/signs/images/vatican.jpg" alt="Vatican columns" />  </li>
+          <img typeof="foaf:Image" src="/profiles/signsorganicgroups/themes/custom/signs/images/vatican.jpg" alt="Vatican columns" />  </li>
         
           <li class="views-row views-row-4 views-row-even">  
-          <img typeof="foaf:Image" src="/profiles/signage/themes/custom/signs/images/golden_door_medina.jpg" alt="Golden door at Masjid-e-nabvi Madina Munawara" />  </li>
+          <img typeof="foaf:Image" src="/profiles/signsorganicgroups/themes/custom/signs/images/golden_door_medina.jpg" alt="Golden door at Masjid-e-nabvi Madina Munawara" />  </li>
           
       </ul>    </div>
  ',
@@ -108,7 +108,7 @@ function og13_default_ctools_custom_content() {
 	</div>
 
 	<div id="wunderground-logo">
-		<img src="/profiles/signage/themes/custom/signs/images/wunderground_logo.svg" alt="Weather provided by Weather Underground, Inc. (wunderground.com Logo)">
+		<img src="/profiles/signsorganicgroups/themes/custom/signs/images/wunderground_logo.svg" alt="Weather provided by Weather Underground, Inc. (wunderground.com Logo)">
 	</div>
 </div>',
     'format' => 'full_html',

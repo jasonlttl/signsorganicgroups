@@ -121,7 +121,7 @@ function displayWeather() {
 			$('#basic-today-temp-low').html(wu_today_temp_low + '&deg;F');
 			$('#basic-today-temperature').html(wu_today_temp_high + '&deg;F | ' + wu_today_temp_low + '&deg;F');
 			$('#basic-today-conditions').html(wu_today_conditions);
-			$('#basic-today-icon').html('<img id="icon" src="/profiles/signage/themes/custom/signs/images/weather/' + wu_today_icon_alt + '.svg">');
+			$('#basic-today-icon').html('<img id="icon" src="/profiles/signsorganicgroups/themes/custom/signs/images/weather/' + wu_today_icon_alt + '.svg">');
 	
 			// Results for Tomorrow's forecast
 			var wu_tomorrow = parsed_json['forecast']['simpleforecast']['forecastday'][1];
@@ -136,7 +136,7 @@ function displayWeather() {
 			$('#basic-tomorrow-temp-low').html(wu_tomorrow_temp_low + '&deg;F');
 			$('#basic-tomorrow-temperature').html(wu_tomorrow_temp_high + '&deg;F | ' + wu_tomorrow_temp_low + '&deg;F');
 			$('#basic-tomorrow-conditions').html(wu_tomorrow_conditions);
-			$('#basic-tomorrow-icon').html('<img id="icon" src="/profiles/signage/themes/custom/signs/images/weather/' + wu_tomorrow_icon_alt + '.svg">');
+			$('#basic-tomorrow-icon').html('<img id="icon" src="/profiles/signsorganicgroups/themes/custom/signs/images/weather/' + wu_tomorrow_icon_alt + '.svg">');
 
 			// Results for the Day After Tomorrow's forecast
 			var wu_dayafter_tomorrow = parsed_json['forecast']['simpleforecast']['forecastday'][2];
@@ -151,7 +151,7 @@ function displayWeather() {
 			$('#basic-dayafter-tomorrow-temp-low').html(wu_dayafter_tomorrow_temp_low + '&deg;F');
 			$('#basic-dayafter-tomorrow-temperature').html(wu_dayafter_tomorrow_temp_high + '&deg;F | ' + wu_dayafter_tomorrow_temp_low + '&deg;F');
 			$('#basic-dayafter-tomorrow-conditions').html(wu_dayafter_tomorrow_conditions);
-			$('#basic-dayafter-tomorrow-icon').html('<img id="icon" src="/profiles/signage/themes/custom/signs/images/weather/' + wu_dayafter_tomorrow_icon_alt + '.svg">');
+			$('#basic-dayafter-tomorrow-icon').html('<img id="icon" src="/profiles/signsorganicgroups/themes/custom/signs/images/weather/' + wu_dayafter_tomorrow_icon_alt + '.svg">');
 
 		}
 	});
@@ -253,7 +253,7 @@ function displayAdvWeather() {
 			if((wu_today_conditions.indexOf('Rain') >= 0) || (wu_today_conditions.indexOf('Precipitation') >= 0)) $('#today-humidity-rain-snow').html('<strong>Rainfall:</strong> ' + wu_today_rain.toFixed(2) + ' in');
 			else if((wu_today_conditions.indexOf('Snow') >= 0) || (wu_today_conditions.indexOf('Ice') >= 0) || (wu_today_conditions.indexOf('Freezing') >= 0)) $('#today-humidity-rain-snow').html('<strong>Snowfall:</strong> ' + wu_today_snow.toFixed(2) + ' in');
 			else $('#today-humidity-rain-snow').html('<strong>Humidity:</strong> ' + wu_today_humidity);
-			$('#today-icon').html('<img id="icon" src="/profiles/signage/themes/custom/signs/images/weather/' + wu_today_icon_alt + '.svg">');
+			$('#today-icon').html('<img id="icon" src="/profiles/signsorganicgroups/themes/custom/signs/images/weather/' + wu_today_icon_alt + '.svg">');
 			
 			// Results for Tomorrow's forecast
 			var wu_tomorrow = parsed_json['forecast']['simpleforecast']['forecastday'][1];
@@ -271,7 +271,7 @@ function displayAdvWeather() {
 			$('#tomorrow-temp-low').html(wu_tomorrow_temp_low + '&deg;F');
 			$('#tomorrow-temperature').html(wu_tomorrow_temp_high + '&deg;F | ' + wu_tomorrow_temp_low + '&deg;F');
 			$('#tomorrow-conditions').html(wu_tomorrow_conditions);
-			$('#tomorrow-icon').html('<img id="icon" src="/profiles/signage/themes/custom/signs/images/weather/' + wu_tomorrow_icon_alt + '.svg">');
+			$('#tomorrow-icon').html('<img id="icon" src="/profiles/signsorganicgroups/themes/custom/signs/images/weather/' + wu_tomorrow_icon_alt + '.svg">');
 
 			// Results for the Day After Tomorrow's forecast
 			var wu_dayafter_tomorrow = parsed_json['forecast']['simpleforecast']['forecastday'][2];
@@ -289,7 +289,7 @@ function displayAdvWeather() {
 			$('#dayafter-tomorrow-temp-low').html(wu_dayafter_tomorrow_temp_low + '&deg;F');
 			$('#dayafter-tomorrow-temperature').html(wu_dayafter_tomorrow_temp_high + '&deg;F | ' + wu_dayafter_tomorrow_temp_low + '&deg;F');
 			$('#dayafter-tomorrow-conditions').html(wu_dayafter_tomorrow_conditions);
-			$('#dayafter-tomorrow-icon').html('<img id="icon" src="/profiles/signage/themes/custom/signs/images/weather/' + wu_dayafter_tomorrow_icon_alt + '.svg">');
+			$('#dayafter-tomorrow-icon').html('<img id="icon" src="/profiles/signsorganicgroups/themes/custom/signs/images/weather/' + wu_dayafter_tomorrow_icon_alt + '.svg">');
 
 		}
 	});
