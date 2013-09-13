@@ -5,6 +5,6 @@ projects[drupal][type] = "core"
 api = 2
 
 ; Download signsorganicgroups profile.
-projects[signsbasic][type] = "profile"
-projects[signsbasic][download][type] = "git"
-projects[signsbasic][download][url]  = "git://github.com/UICLAS/signsorganicgroups.git"
+projects[signsorganicgroups][type] = "profile"
+projects[signsorganicgroups][download][type] = "git"
+projects[signsorganicgroups][download][url]  = "git://github.com/UICLAS/signsorganicgroups.git"
