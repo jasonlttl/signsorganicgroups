@@ -1,9 +1,18 @@
 Using the installation profile
 -----------------------------------------------
 
-1. Create a "profiles" folder in your Drupal installation directory. Move the .make files outside of the installation profile to the root of the installation directory.
 
-2. In Drush run: drush make signsorganicgroups.make
+1. Make sure you have Drush and GIT available.
+
+2. Use this command to download core, modules, and profile: 
+
+  'drush make https://raw.github.com/UICLAS/signsorganicgroups/master/signsorganicgroups.starter.make [DESTINATION]'
+
+  * [DESTINATION] = directory to place Drupal file structure
+
+3. Install the site as usual, using the 'Signs Basic profile' as the site's 
+   profile.
+
 
 
 Configuring the site
