@@ -10,7 +10,7 @@ Using the installation profile
 
   * [DESTINATION] = directory to place Drupal file structure
 
-3. Install the site as usual, using the 'Signs Basic profile' as the site's 
+3. Install the site as usual, using the 'Signs Organic Groups' as the site's 
    profile.
 
 
